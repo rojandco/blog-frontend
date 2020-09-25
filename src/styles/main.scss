@@ -1,3 +1,7 @@
+header {
+    margin-bottom: 50px;
+}
+
 .navbar-dark {
     a {
         color: white;
@@ -6,4 +10,8 @@
             text-decoration: underline;
         }
     }
+}
+
+.nav-item {
+    padding: 0 10px;
 }

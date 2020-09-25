@@ -20,7 +20,7 @@ export default class Xhr {
 
     constructor(props: XhrProps) {
         this.props = props;
-        Axios.defaults.baseURL = "http://localhost:3000/v1";
+        Axios.defaults.baseURL = "http://localhost:8000/v1";
     }
 
     SendRequest = (method: AxiosRequestConfig["method"], cb: CallBackFunc): void => {

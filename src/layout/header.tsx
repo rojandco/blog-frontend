@@ -20,9 +20,14 @@ export default function Header() {
                             <Link to="#" onClick={logout}>Logout</Link>
                         </Nav.Item>
                         :
-                        <Nav.Item>
-                            <Link to="/login">Login</Link>
-                        </Nav.Item>
+                        <>
+                            <Nav.Item>
+                                <Link to="/login">Login</Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Link to="/register">Register</Link>
+                            </Nav.Item>
+                        </>
                     }
                 </Navbar.Collapse>
             </Navbar>
